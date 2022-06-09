@@ -29,7 +29,7 @@ config_integration.trace_integrations(['logging'])
 config_integration.trace_integrations(['requests'])
 
 # Instrumentation key
-instr_key = 'InstrumentationKey=e6ab7095-e101-44ee-8317-6dcb2f6b9998'
+instr_key = 'InstrumentationKey=481d1339-1cba-4e83-bf01-9c85203731f3'
 
 # Logging
 logger = logging.getLogger(__name__)
