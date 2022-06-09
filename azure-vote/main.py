@@ -81,7 +81,7 @@ else:
     title = app.config['TITLE']
 
 # Redis configurations
-redis_server = '127.0.0.1' #os.environ['REDIS']
+redis_server = os.environ['REDIS'] #'127.0.0.1' #os.environ['REDIS']
 
 # Redis Connection to another container
 try:

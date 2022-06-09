@@ -2,12 +2,12 @@
 
 # Variables
 # Cloud Lab users should use the existing Resource group name, such as, resourceGroup="cloud-demo-153430" 
-resourceGroup="acdnd-c4-exercise"
-location="japanwest"
+resourceGroup="rg-udacity-baoth"
+location="eastasia"
 osType="UbuntuLTS"
-vmssName="udacity-vmss-loihuynh"
+vmssName="udacity-vmss-baoth"
 adminName="udacityadmin"
-storageAccount="udacitydiagloihuynh"
+storageAccount="udacitydiagbaoth"
 bePoolName="$vmssName-bepool"
 lbName="$vmssName-lb"
 lbRule="$lbName-network-rule"
