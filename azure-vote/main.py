@@ -80,9 +80,8 @@ if ("TITLE" in os.environ and os.environ['TITLE']):
 else:
     title = app.config['TITLE']
 
-r = redis.Redis()
 # Redis configurations
-redis_server = os.environ['REDIS']
+redis_server = '127.0.0.1:6379' #os.environ['REDIS']
 
 # Redis Connection to another container
 try:
