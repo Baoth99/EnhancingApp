@@ -80,7 +80,7 @@ if ("TITLE" in os.environ and os.environ['TITLE']):
 else:
     title = app.config['TITLE']
 
-
+r = redis.Redis()
 # Redis configurations
 redis_server = os.environ['REDIS']
 
